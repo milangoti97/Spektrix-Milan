@@ -777,13 +777,10 @@ h1.spx-heading-title.spx-heading-title__checkout {
   font: 18px/22px "Lato", sans-serif;
   text-transform: uppercase;
 }
-.EventDetails .DateAndTime,
-.EventDetails .InstanceTime,
-.EditTickets .DateAndTime,
-.EditTickets .InstanceTime {
-  display: block;
-  color: #cdb17c;
-  margin: 11px 0 0px;
+.EventDetails .DateAndTime, .EventDetails .InstanceTime, .EditTickets .DateAndTime, .EditTickets .InstanceTime {
+    display: block;
+    color: #cdb17c;
+    margin: 8px 0 0px;
 }
 .EventDetails h1.EditTicketsHeading,
 .EditTickets h1.EditTicketsHeading {
@@ -1437,6 +1434,46 @@ p.AddressEditInstructions {
 .ChooseSeatsHeading {
     padding: 50px 0px 30px;
     text-align: center;
+}
+.Event.EventDetails {
+    margin-bottom: 30px;
+}
+
+.InstanceCalendar {
+    margin: 0 0 50px 0;
+    background: #ffffff;
+}
+div#ctl00_ContentPlaceHolder_SeatingAreaControl_ContainerDiv {
+    border: 2px solid #cdb17c;
+}
+.SeatingArea .PlanControls {
+    padding: 8px 0;
+    background: #cdb17c;
+    background-image: none;
+}
+div#ctl00_ContentPlaceHolder_SeatingAreaControl_ContainerDiv {
+    border: 2px solid #cdb17c;
+    margin: 0px 0px 10px;
+}
+div#ctl00_ContentPlaceHolder_PricesContainer {
+    padding: 60px 0;
+}
+h3.PricesHeading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.PriceListTable {
+    border: 1px solid #cdb17c;
+    width: 100%;
+}
+
+.PriceListTable thead {
+    background: #fff4e0;
+}
+.PriceListTable th, .PriceListTable td, .Details th, .Details td {
+    padding: 10px 15px;
+    border: 1px solid #cdb17c;
 }
 
 /* Milan New Styling Updated End */

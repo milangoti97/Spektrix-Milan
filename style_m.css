@@ -736,9 +736,6 @@ textarea {
 .CheckoutHeading,
 .AddGiftVoucherBlurb h1,
 h1.spx-heading-title.spx-heading-title__checkout {
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  margin-top: 5px;
   font-weight: bold;
   line-height: 1.17;
   font-size: 36px;
@@ -1434,3 +1431,12 @@ p.AddressEditInstructions {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Milan New Styling Updated Start */
+
+.ChooseSeatsHeading {
+    padding: 50px 0px 30px;
+    text-align: center;
+}
+
+/* Milan New Styling Updated End */

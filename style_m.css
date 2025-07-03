@@ -1,6 +1,428 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: Roboto Condensed, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Roboto Condensed, sans-serif !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
+ .DatesAndTimesHeading, .ChooseSeatsHeading h1, .PricesHeading, .BasketHeading, .DonationsBlurb h1, .LoginHeading, .ForgottenPasswordHeading, .FundHeading, .GiftAidDeclarationFormHeading, .CheckoutHeading, .AddGiftVoucherBlurb h1, h1.spx-heading-title.spx-heading-title__checkout {
+    color: #545454;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.EventDetails .EventName, .EditTickets .EventName {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 170%;
+}
+  .EventDetails .DateAndTime, .EventDetails .InstanceTime, .EditTickets .DateAndTime, .EditTickets .InstanceTime {
+      display: block;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 130%;
+      margin: 15px 0 0px;
+      color: rgb(0, 218, 178);
+  }
+    .AreaAndVenueDetails {
+      margin-bottom: 25px;
+      color: #787878;
+      font-size: 16px;
+      line-height: 170%;
+  }
+  .ChooseSeatsHeading h1 {
+      text-transform: uppercase;
+      font-family: Roboto Condensed, sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 120%;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 45px;
+  }
+  .InstanceCalendar {
+      background-color: rgb(255 255 255);
+      border: 1px solid #CCC;
+      min-width: 251px;
+      padding: 6px 30px 6px 0;
+      margin: 0 0 15px 0;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 12px;
+  }
+  .InstanceCalendar .CurrentDate {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: normal;
+  }
+  .SeatingArea .PlanControls {
+      padding: 12px 0;
+      background-image: none;
+  }
+  a#ctl00_ContentPlaceHolder_WhatsOnLink {
+    margin-right: 20px;
+}
+.ItemEditButton {
+    margin-right: 10px !important;
+}
+.SeatingAreaInstructions {
+      display: block;
+      font-size: 16px;
+      line-height: 22px;
+      max-width: 624px;
+      font-weight: 700;
+      overflow-wrap: break-word;
+      margin-bottom: 50px;
+  }
+  .spx-main-container .spx-button-primary {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .spx-main-container .spx-button-primary:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .spx-main-container .spx-section-container__checkout--donations .spx-subsection-container__checkout--donation button {
+    border: #545454 solid 1px;
+    background: transparent;
+    height: 38px;
+    width: 38px;
+    color: #545454;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .spx-main-container .spx-section-container__checkout--donations .spx-button-secondary {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #545454 !important;
+    background: #fff !important;
+    border: 2px solid #545454 !important;
+    box-sizing: border-box;
+    margin-left: 15px;
+  }
+  .spx-main-container .spx-section-container__checkout--donations .spx-button-secondary:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .spx-main-container .spx-section-container__checkout--donations .spx-button-secondary:hover {
+    background: #545454 !important;
+    color: #fff !important;
+  }
+  .spx-main-container .spx-section-container__checkout--order-summary .spx-field-container__checkout--credit .spx-button-tertiary {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+  }
+  .spx-main-container .spx-section-container__checkout--order-summary .spx-field-container__checkout--credit .spx-button-tertiary:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .spx-main-container .spx-section-container__checkout--order-summary .spx-subsection-container__checkout--credit .spx-field-container button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 46px;
+  }
+  .spx-main-container .spx-section-container__checkout--billing-details .spx-button-tertiary__checkout--new-address {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  .spx-main-container .spx-section-container__checkout--billing-details .spx-button-tertiary__checkout--new-address:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .spx-subsection-container__checkout button.spx-button-secondary {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #00dab2;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .spx-subsection-container__checkout button.spx-button-secondary:hover {
+    background: transparent;
+    color: #00dab2;
+    border-color: #00dab2;
+  }
+  .BookNowButton,
+  .RedeemVoucher .Button {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    clear: both;
+    display: block !important;
+    margin: 10px 0;
+  }
+  .BookNowButton:hover,
+  .RedeemVoucher .Button:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+
+  .PromoCode .Button {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    color: #545454 !important;
+    background: #fff !important;
+    border: 2px solid #545454 !important;
+    box-sizing: border-box;
+    clear: both;
+    display: block !important;
+    margin: 10px 0;
+  }
+  .PromoCode .Button:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .PromoCode .Button:hover {
+    background: #545454 !important;
+    color: #fff !important;
+  }
+
+
+  .UpdateButton,
+  .RefreshButton,
+  .Continue,
+  .ItemEditButton,
+  .ItemDeleteButton,
+  .LinkButton,
+  .Buttons .Logout,
+  .Buttons .Login,
+  .NextButton,
+  .PreviousButton,
+  .CreateButton,
+  .ContinueButton,
+  .Button.Edit,
+  .Button.Delete,
+  .Account_Link a,
+  .NewAddress,
+  .Address a,
+  input[type=submit] {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    clear: both;
+    margin: 18px 0;
+    border-radius: 4px;
+    padding: 10px 35px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid rgb(22, 40, 67);
+  }
+  .UpdateButton:hover,
+  .RefreshButton:hover,
+  .Continue:hover,
+  .ItemEditButton:hover,
+  .ItemDeleteButton:hover,
+  .LinkButton:hover,
+  .Buttons .Logout:hover,
+  .Buttons .Login:hover,
+  .NextButton:hover,
+  .PreviousButton:hover,
+  .CreateButton:hover,
+  .ContinueButton:hover,
+  .Button.Edit:hover,
+  .Button.Delete:hover,
+  .Account_Link a:hover,
+  .NewAddress:hover,
+  .Address a:hover,
+  input[type=submit]:hover {
+    background: rgb(22, 40, 67);
+    color: #ffffff;
+    border-color: rgb(22, 40, 67);
+  }
+  .UpdateButton.CheckoutLink,
+  .RefreshButton.CheckoutLink,
+  .Continue.CheckoutLink,
+  .ItemEditButton.CheckoutLink,
+  .ItemDeleteButton.CheckoutLink,
+  .LinkButton.CheckoutLink,
+  .Buttons .Logout.CheckoutLink,
+  .Buttons .Login.CheckoutLink,
+  .NextButton.CheckoutLink,
+  .PreviousButton.CheckoutLink,
+  .CreateButton.CheckoutLink,
+  .ContinueButton.CheckoutLink,
+  .Button.Edit.CheckoutLink,
+  .Button.Delete.CheckoutLink,
+  .Account_Link a.CheckoutLink,
+  .NewAddress.CheckoutLink,
+  .Address a.CheckoutLink,
+  input[type=submit].CheckoutLink {
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  .ItemEditButton,
+  .ItemDeleteButton {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #545454 !important;
+    background: #fff !important;
+    border: 2px solid #545454 !important;
+    box-sizing: border-box;
+  }
+  .ItemEditButton:hover,
+  .ItemDeleteButton:hover {
+    background: transparent;
+    color: #cdb17c;
+    border-color: #cdb17c;
+  }
+  .ItemEditButton:hover,
+  .ItemDeleteButton:hover {
+    background: #545454 !important;
+    color: #fff !important;
+  }
+
+
+  .ChooseSeats .Buttons .RefreshButton {
+    display: inline-block;
+    background: transparent;
+    overflow: visible;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(22, 40, 67);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(22, 40, 67);
+}
+  .ChooseSeats .Buttons .RefreshButton:hover {
+    background: #162843;
+    color: #ffffff;
+    border-color: #162843;
+  }
+  .ChooseSeats .Buttons .RefreshButton:hover {
+    background: #162843 !important;
+    color: #fff !important;
+  }
+  .ChooseSeats .Buttons .UpdateButton {
+    float: right;
+        border: 1px solid #00dab2;
+    background-color: #00dab2;
+    color: #162843;
+    transition: color .3s, border-color .3s, background-color .3s;
+  }
+  .ChooseSeats .Buttons .UpdateButton:hover {
+    background-color: #162843;
+    border-color: #162843;
+    color: #00dab2;
+  }
+.LoginLogout .Buttons {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+  }
+  

@@ -817,7 +817,11 @@ h1.spx-heading-title.spx-heading-title__checkout {
 }
 
 div.Savings {
-  margin-bottom: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #bf9b56;
+    padding: 40px 30px;
+    background: #fffefb;
+    border-radius: 10px;
 }
 div.Savings p {
   clear: both;
@@ -1527,7 +1531,7 @@ div#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeDiv {
     display: flex;
     flex-wrap: wrap;
     gap: 0 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 a#ctl00_ContentPlaceHolder_WhatsOnLink {
     padding: 8px 0px;
@@ -1545,5 +1549,14 @@ p.Message {
 }
 .Details.Details table {
     width: 100%;
+}
+
+p.ViewDetails {
+    border-top: 1px solid #cdb17c;
+}
+#ctl00_ContentPlaceHolder_ItemsUpdate .Buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
 }
 /* Milan New Styling Updated End */

@@ -1422,6 +1422,8 @@ p.AddressEditInstructions {
 .InstanceCalendar {
     margin: 0 0 50px 0;
     background: #ffffff;
+    padding: 14px 15px;
+    border-radius: 6px;
 }
 div#ctl00_ContentPlaceHolder_SeatingAreaControl_ContainerDiv {
     border: 2px solid #cdb17c;
@@ -1456,7 +1458,8 @@ h3.PricesHeading {
 td.Type.Column select {
     padding: 10px 10px;
     border-radius: 5px;
-    border-color: #cdb17c;
+    border-color: #CCC;
+    width: 100%;
 }
 .SupplementaryEventDiv {
     margin: 40px 0 60px;

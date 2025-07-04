@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  content: unset;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1185,9 +1200,10 @@ ul.Breakdown li.Total {
   clear: both;
 }
 .SpektrixPage dd.Item {
-  margin-left: 0px;
-  position: relative;
-  line-height: 2.1;
+    margin-left: 0px;
+    position: relative;
+    line-height: 2.1;
+    margin-bottom: 40px;
 }
 
 /* LOGIN OUT
@@ -1559,4 +1575,28 @@ p.ViewDetails {
     gap: 15px;
     margin-top: 20px;
 }
+.Items .PromoItems {
+    margin: 20px 0 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Items .PromoItems li {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl00_AddPromoItemButton, input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl01_AddPromoItemButton, input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl02_AddPromoItemButton {
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    margin-top: 15px;
+}
+input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl00_PromoItemsQuantityBox, input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl01_PromoItemsQuantityBox, input#ctl00_ContentPlaceHolder_PromoItemsRepeater_ctl02_PromoItemsQuantityBox {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin-left: 10px;
+}
+
 /* Milan New Styling Updated End */

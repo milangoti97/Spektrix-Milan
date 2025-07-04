@@ -876,27 +876,27 @@ div.Savings ul li a {
 }
 
 .PromoCode .Button {
-  border: 0.2rem solid transparent;
-  color: #fff;
-  background-color: #cdb17c;
-  font-size: 16px;
-  text-decoration: none;
-  display: inline-block;
-  padding: 6px 21px;
-  border-radius: 3rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  transition: background 0.25s linear;
-  cursor: pointer;
-  box-sizing: border-box;
-  color: #545454 !important;
-  background: #fff !important;
-  border: 2px solid #545454 !important;
-  box-sizing: border-box;
-  clear: both;
-  display: block !important;
-  margin: 10px 0;
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #545454 !important;
+    background: #fff !important;
+    border: 2px solid #545454 !important;
+    box-sizing: border-box;
+    clear: both;
+    display: block !important;
+    margin: 5px 0;
 }
 .PromoCode .Button:hover {
   background: transparent;
@@ -909,8 +909,9 @@ div.Savings ul li a {
 }
 
 .PromoCode.Container label.left {
-  float: none;
-  width: initial;
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .UpdateButton, .RefreshButton, .Continue, .ItemEditButton, .ItemDeleteButton, .LinkButton, .Buttons .Logout, .Buttons .Login, .NextButton, .PreviousButton, .CreateButton, .ContinueButton, .Button.Edit, .Button.Delete, .Account_Link a, .NewAddress, .Address a, input[type=submit] {
@@ -1491,5 +1492,45 @@ input#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_TicketTypesRepeater_ctl01_Ti
     flex: 1;
     margin-right: 40px;
     border: 1px solid;
+}
+.SpektrixPage.Basket2 {
+    padding: 50px 0px 0px;
+}
+.BasketHeading {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+div#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.Savings h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.PromoCode.Container label.left {
+    width: 100%;
+}
+input#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeTextBox {
+    flex: 1;
+    border: 1px solid;
+}
+div#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 40px;
+    margin-bottom: 20px;
+}
+a#ctl00_ContentPlaceHolder_WhatsOnLink {
+    padding: 8px 0px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.SpektrixPage .Items {
+    margin-bottom: 15px;
 }
 /* Milan New Styling Updated End */

@@ -1475,5 +1475,17 @@ h3.PricesHeading {
     padding: 10px 15px;
     border: 1px solid #cdb17c;
 }
-
+td.Type.Column select {
+    border: none;
+}
+.SupplementaryEventDiv {
+    margin: 40px 0 60px;
+}
+div#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_EventWikiTextViewer {
+    margin-bottom: 60px;
+}
+.Event_Text img {
+    margin: 0 auto;
+    display: block;
+}
 /* Milan New Styling Updated End */

@@ -1456,7 +1456,9 @@ h3.PricesHeading {
     border-bottom: 1px solid #cdb17c;
 }
 td.Type.Column select {
-    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: #cdb17c;
 }
 .SupplementaryEventDiv {
     margin: 40px 0 60px;
@@ -1528,13 +1530,16 @@ a#ctl00_ContentPlaceHolder_WhatsOnLink {
     display: inline-block;
     margin-top: 25px;
 }
-.SpektrixPage .Items {
-    margin-bottom: 15px;
+h2.EditTicketsHeading {
+    margin-bottom: 10px;
 }
 h2.EditTicketsHeading {
     margin-bottom: 10px;
 }
 p.Message {
     margin-bottom: 30px;
+}
+.Details.Details table {
+    width: 100%;
 }
 /* Milan New Styling Updated End */

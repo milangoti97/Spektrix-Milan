@@ -913,40 +913,23 @@ div.Savings ul li a {
   width: initial;
 }
 
-.UpdateButton,
-.RefreshButton,
-.Continue,
-.ItemEditButton,
-.ItemDeleteButton,
-.LinkButton,
-.Buttons .Logout,
-.Buttons .Login,
-.NextButton,
-.PreviousButton,
-.CreateButton,
-.ContinueButton,
-.Button.Edit,
-.Button.Delete,
-.Account_Link a,
-.NewAddress,
-.Address a,
-input[type=submit] {
-  border: 0.2rem solid transparent;
-  color: #fff;
-  background-color: #cdb17c;
-  font-size: 16px;
-  text-decoration: none;
-  display: inline-block;
-  padding: 6px 21px;
-  border-radius: 3rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  transition: background 0.25s linear;
-  cursor: pointer;
-  box-sizing: border-box;
-  clear: both;
-  margin: 10px 0;
+.UpdateButton, .RefreshButton, .Continue, .ItemEditButton, .ItemDeleteButton, .LinkButton, .Buttons .Logout, .Buttons .Login, .NextButton, .PreviousButton, .CreateButton, .ContinueButton, .Button.Edit, .Button.Delete, .Account_Link a, .NewAddress, .Address a, input[type=submit] {
+    border: 0.2rem solid transparent;
+    color: #fff;
+    background-color: #cdb17c;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    transition: background 0.25s linear;
+    cursor: pointer;
+    box-sizing: border-box;
+    clear: both;
+    margin: 5px 0;
 }
 .UpdateButton:hover,
 .RefreshButton:hover,
@@ -1487,5 +1470,26 @@ div#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_EventWikiTextViewer {
 .Event_Text img {
     margin: 0 auto;
     display: block;
+}
+div#SimpleSeatingDiv {
+    margin-top: 15px;
+}
+.Container.TicketType {
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+.Container.TicketType span {
+    width: 50%;
+    display: inline-block;
+}
+.Container.TicketType span+span {
+    text-align: right;
+}
+input#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_TicketTypesRepeater_ctl01_TicketNumber {
+    flex: 1;
+    margin-right: 40px;
+    border: 1px solid;
 }
 /* Milan New Styling Updated End */

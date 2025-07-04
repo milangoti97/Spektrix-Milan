@@ -1461,9 +1461,7 @@ td.Type.Column select {
     border-color: #CCC;
     width: 100%;
 }
-.SupplementaryEventDiv {
-    margin: 40px 0 60px;
-}
+
 div#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_EventWikiTextViewer {
     margin-bottom: 60px;
 }
@@ -1475,10 +1473,12 @@ div#SimpleSeatingDiv {
     margin-top: 15px;
 }
 .Container.TicketType {
-    display: flex
-;
+    display: flex;
     flex-wrap: wrap;
     gap: 20px 0;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 .Container.TicketType span {
     width: 50%;
@@ -1488,9 +1488,12 @@ div#SimpleSeatingDiv {
     text-align: right;
 }
 input#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_TicketTypesRepeater_ctl01_TicketNumber {
-    flex: 1;
-    margin-right: 40px;
+    margin-right: 5px;
     border: 1px solid;
+    border-radius: 5px;
+    border-color: #CCC;
+    width: 85px;
+    padding: 12px 15px;
 }
 .SpektrixPage {
     min-height: 400px;
@@ -1502,7 +1505,7 @@ input#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_TicketTypesRepeater_ctl01_Ti
     padding: 0;
     border: 0;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 div#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeDiv {
     display: flex;

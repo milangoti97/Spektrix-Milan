@@ -1412,7 +1412,7 @@ p.AddressEditInstructions {
 /* Milan New Styling Updated Start */
 
 .ChooseSeatsHeading {
-    padding: 50px 0px 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 .Event.EventDetails {
@@ -1444,12 +1444,10 @@ h3.PricesHeading {
 }
 
 .PriceListTable {
-    border: 1px solid #cdb17c;
     width: 100%;
 }
 
 .PriceListTable thead {
-    background: #fff4e0;
 }
 .PriceListTable th, .PriceListTable td, .Details th, .Details td {
     padding: 10px 15px;

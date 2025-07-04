@@ -690,16 +690,15 @@ body.fox #foxform .Format {
 }
 
 body {
-  font: 16px/18px "Lato", sans-serif;
-  color: #545454;
-  width: 100%;
-  max-width: 768px;
-  /* $breakpoint-tablet */
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  color: #545454;
+    font: 16px / 18px "Lato", sans-serif;
+    color: #545454;
+    width: 100%;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #545454;
 }
 body a {
   color: #545454;
@@ -782,12 +781,10 @@ h1.spx-heading-title.spx-heading-title__checkout {
     color: #cdb17c;
     margin: 8px 0 0px;
 }
-.EventDetails h1.EditTicketsHeading,
-.EditTickets h1.EditTicketsHeading {
-  border-bottom: 2px solid #545454;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  margin-top: 5px;
+.EventDetails h1.EditTicketsHeading, .EditTickets h1.EditTicketsHeading {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 .EventDates select {
@@ -1081,9 +1078,8 @@ input[type=submit].CheckoutLink {
 .Details td {
   padding: 5px;
 }
-.PriceListTable.Details,
-.Details.Details {
-  margin-top: 20px;
+.PriceListTable.Details, .Details.Details {
+    margin: 40px 0;
 }
 
 .SpektrixFooterFloating {
@@ -1457,7 +1453,7 @@ h3.PricesHeading {
 }
 .PriceListTable th, .PriceListTable td, .Details th, .Details td {
     padding: 10px 15px;
-    border: 1px solid #cdb17c;
+    border-bottom: 1px solid #cdb17c;
 }
 td.Type.Column select {
     border: none;
@@ -1493,8 +1489,10 @@ input#ctl00_ContentPlaceHolder_EventsRepeater_ctl00_TicketTypesRepeater_ctl01_Ti
     margin-right: 40px;
     border: 1px solid;
 }
-.SpektrixPage.Basket2 {
-    padding: 50px 0px 0px;
+.SpektrixPage {
+    min-height: 400px;
+    padding: 70px 0;
+    width: 100%;
 }
 .BasketHeading {
     margin: 0;
@@ -1532,5 +1530,11 @@ a#ctl00_ContentPlaceHolder_WhatsOnLink {
 }
 .SpektrixPage .Items {
     margin-bottom: 15px;
+}
+h2.EditTicketsHeading {
+    margin-bottom: 10px;
+}
+p.Message {
+    margin-bottom: 30px;
 }
 /* Milan New Styling Updated End */

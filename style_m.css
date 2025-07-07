@@ -1196,9 +1196,9 @@ ul.Breakdown li.Total {
 /* LOGIN OUT
 ------------ */
 .LoginLogout .Buttons {
-  float: left;
-  width: 100%;
-  margin-top: 10px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .LoginForm .Container {
@@ -1228,16 +1228,19 @@ form .LoginForm .Container input {
 }
 
 .Account_Link {
-  margin: 40px 20px 0 0;
-  float: left;
+    margin: 40px 0px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
 }
 .Account_Link a {
   display: block;
 }
 
 .LoginForm {
-  float: left;
-  width: 533px;
+    float: left;
+    width: 100%;
 }
 
 /* ACCOUNT
@@ -1608,5 +1611,13 @@ dd.Item.Instance {
 }
 .PriceListTable.Details, .Details.Details {
     margin: 35px 0;
+}
+.SpektrixPage.LoginLogout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    margin: auto;
 }
 /* Milan New Styling Updated End */

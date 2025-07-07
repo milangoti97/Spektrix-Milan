@@ -1599,8 +1599,8 @@ span.AddButton input[type=text] {
 }
 .OptionalMessage+.Buttons a {
     margin: 0;
-    padding: 8px 20px;
-    display: inline-block;
+    padding: 8px 28px;
+    display: block;
 }
 dd.Item.Instance {
     display: flex;

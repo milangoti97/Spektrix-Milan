@@ -1224,7 +1224,10 @@ form .LoginForm .Container input {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   box-sizing: border-box;
-  padding: 0.4em 0.7em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-color: #CCC;
+  width: 100%;
 }
 
 .Account_Link {
